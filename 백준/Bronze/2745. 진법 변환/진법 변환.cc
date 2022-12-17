@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    char N[1000000];
+    char N[1000];
     int B,deci=0;
     scanf("%s %d", N, &B);
     int len = strlen(N);
