@@ -3,17 +3,15 @@
 
 int main(void)
 {
-    int n,a=1,out=0;
+    int n,out=0;
     scanf("%d", &n);
-    while (a <= n)
+    while (n>=100)
     {
-        if (a < 100 || (a / 100 - (a / 10) % 10) == ((a / 10) % 10 - a % 10))
-        {
+        if (n == 1000);
+        else if ((n / 100 - (n / 10) % 10) == ((n / 10) % 10 - n % 10))
             out++;
-        }
-        else if (a == 1000);
-        a++;
+        n--;
     }
-    printf("%d", out);
+    printf("%d", n+out);
     return 0;
 }
